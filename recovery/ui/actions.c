@@ -8,10 +8,10 @@
 #define CONFIGFS_USB_MASS_STORAGE_FILE "/config/usb_gadget/g1/functions/mass_storage.usb0/lun.0/file"
 #endif /*CONFIGFS_USB_MASS_STORAGE_FILE*/
 #ifndef SDCARD_PATH
-#define SDCARD_PATH "/dev/mmcblk0"
+#define SDCARD_PATH "/dev/mmcblk1"
 #endif /*SDCARD_PATH*/
 #ifndef EMMC_PATH
-#define EMMC_PATH "/dev/mmcblk2"
+#define EMMC_PATH "/dev/mmcblk0"
 #endif /*EMMC_PATH*/
 
 void event_handler_ChangeMassStorage(lv_obj_t * obj, lv_event_t event)
